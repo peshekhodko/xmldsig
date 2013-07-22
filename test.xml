@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><DirectoryRes xmlns="http://www.idealdesk.com/ideal/messages/mer-acq/3.3.1" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" version="3.3.1">
+    <createDateTimestamp>2013-07-11T10:06:59.876Z</createDateTimestamp>
+    <Acquirer>
+        <acquirerID>0020</acquirerID>
+    </Acquirer>
+    <Directory>
+        <directoryDateTimestamp>2013-07-11T10:06:59.876Z</directoryDateTimestamp>
+        <Country>
+            <countryNames>Deutschland</countryNames>
+            <Issuer>
+                <issuerID>INGBNL2A</issuerID>
+                <issuerName>Issuer Simulation V3 - ING</issuerName>
+            </Issuer>
+            <Issuer>
+                <issuerID>RABONL2U</issuerID>
+                <issuerName>Issuer Simulation V3 - RABO</issuerName>
+            </Issuer>
+        </Country>
+    </Directory>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>kcgj3gIji0Y58Bx2XSMAMg+T6hjkmGmhS5aQsmHQn+0=</DigestValue></Reference></SignedInfo><SignatureValue>lsW9J6muOYjE1Ri0h0dsEaTjMOz0K4FqonyNjcHnAN516RoG96CploAbQtpaRP/kKkj0eEHxQeWy
+2XVGpybb4SR3juOzfS7omkpxhyvjfBUI+c5FkQ0fkWf8qAaTqyLhIxaTkFdzMgLo+/BSt/4LnzqY
+Ufp4KGXeBjCdtT2h4GawxZ8sF5qIWC89IIyRCp1xnVe3BUeNG7FcR7weWWX0hHd6ahqziLS2qVao
+EFYvdZ+M7j5VgHguKvike+Mm+9V2j4RUn1Rhmh9GflGUs+g8IkVFkbnGPCrIVnG8IT9f+9++pT3z
+O0by76JYuQD7gXQk2vwtPdV1LLpQ0wh22vQKkQ==</SignatureValue><KeyInfo><KeyName>FC0A17A7ABD72369726EA4D4DBEF9838128A7C78</KeyName></KeyInfo></Signature></DirectoryRes>

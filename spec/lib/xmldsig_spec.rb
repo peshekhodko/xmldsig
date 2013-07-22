@@ -14,10 +14,21 @@ describe Xmldsig do
           signed_document = unsigned_document.sign(private_key)
           Xmldsig::SignedDocument.new(signed_document).validate(certificate).should be_true
         end
-        
+
         it 'should have a signature element' do
           signed_document = unsigned_document.sign(private_key)
           Xmldsig::SignedDocument.new(signed_document).signatures.count.should == 1
+        end
+      end
+    end
+  end
+
+  describe "Validate signed documents" do
+    Dir["spec/fixtures/signed/*.yml"].each do |document|
+      describe "#{document}" do
+
+        it 'verifies the signature' do
+          puts YAML.load(document).to_s
         end
       end
     end

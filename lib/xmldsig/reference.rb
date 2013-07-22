@@ -43,7 +43,7 @@ module Xmldsig
 
     def calculate_digest_value
       node = transforms.apply(referenced_node)
-      digest_method.digest node
+      digest_method.digest node.to_s
     end
 
     def digest_method
